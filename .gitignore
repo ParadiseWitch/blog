@@ -1,0 +1,8 @@
+/node_modules
+.temp
+.cache
+/.idea
+
+.gemini/
+gha-creds-*.json
+.DS_Store
