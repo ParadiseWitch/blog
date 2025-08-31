@@ -22,7 +22,7 @@ export default defineUserConfig({
       `,
     ],
   ],
-  base: "/",
+  base: "/blog",
   lang: "zh-CN",
   title: "Maiiiiiid",
   description: "Maiiiiiid' blog.",
