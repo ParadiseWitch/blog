@@ -1,5 +1,5 @@
 ---
-title: spring-aop-invaild
+title: spring中调用生成AOP增强方法失效问题
 createTime: 2025/09/01 23:18:41
 permalink: /article/oqcbm0ok/
 ---
