@@ -3,7 +3,6 @@ title: spring-session-data-redis 无法删除redis中session的key
 createTime: 2025/08/30 23:55:01
 permalink: /article/99xp4tly/
 ---
-[[TOC]]
 
 # 问题场景
 
@@ -50,7 +49,7 @@ permalink: /article/99xp4tly/
 
 最后等到要根据用户的sessionId查询session对象时, 请求redis超时。
 
-# 解决方案
+## 解决方案
 
 这个问题其实算是设计问题，只要将原来将存在redis中的数据形式改为如下形式就可以：
 

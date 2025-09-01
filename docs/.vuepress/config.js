@@ -40,6 +40,7 @@ export default defineUserConfig({
       markmap: true, // 启用 Markmap 图表嵌入语法
       codeTree: true, // 启用代码树
     },
+    outline: [1, 6],
 
     /**
      * 代码高亮
