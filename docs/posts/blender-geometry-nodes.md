@@ -5,13 +5,14 @@ category: Graphics
 createTime: 2025/08/29 22:36:54
 permalink: /article/asydl5vc/
 ---
-# Blender 几何节点
+## Blender 几何节点
 
-# 节点端口
-#TODO
+## 节点端口
 
+# TODO
 
-# 部分节点详情说明
+## 部分节点详情说明
+
 ## 设置曲线半径
 
 和 "曲线转换为网格" 节点一起使用。  
@@ -22,4 +23,6 @@ permalink: /article/asydl5vc/
 ## 对齐旋转至矢量
 
 ## 预览器
+
 预览器中的值的数据类型不对时，可以右键要预览的属性点击连接预览器，或者ctrl + shift点击要预览的属性
+

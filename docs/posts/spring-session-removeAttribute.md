@@ -4,7 +4,7 @@ createTime: 2025/08/30 23:55:01
 permalink: /article/99xp4tly/
 ---
 
-# 问题场景
+## 问题场景
 
 起因由一个问题引起的.
 
@@ -67,7 +67,7 @@ permalink: /article/99xp4tly/
 
 到此为止,已经是有了完善的解决方案.
 
-# 删除reids中的session属性
+## 删除reids中的session属性
 
 虽然上面的方法可以直接解决根本问题，但是我还是从另一个角度思考了问题.
 
@@ -154,7 +154,7 @@ private void save() {
     </bean>
     ```
 
-# 总结
+## 总结
 
 - spring-session-data-redis 的 `removeAttribute` 方法会删除内存中session的属性,但是redis中只是把session对应的属性置null
 - spring-session-data-redis 中在redis中删除session的属性本质上是更新.更新操作不一定不会立马进行,需要查看FlushMode配置的值.

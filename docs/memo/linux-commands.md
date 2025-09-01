@@ -7,7 +7,7 @@ tags:
 createTime: 2025/08/29 23:24:03
 permalink: /article/vkeyb4o5/
 ---
-# 系统操作
+## 系统操作
 
 ## 查看当前系统发行版
 
@@ -15,7 +15,7 @@ permalink: /article/vkeyb4o5/
 cat /etc/os-release
 ```
 
-# 文件操作
+## 文件操作
 
 ## 查看文件大小
 
@@ -35,16 +35,15 @@ ls -lh
 - `ps -eo pid,ppid,%mem,%cpu,comm --sort=-%cpu | head`
 - `ps -ef`
 
-# 查看端口
+## 查看端口
 
 - sudo netstat -tuln
 - sudo lsof -i :8080
 
-# 查找指定名称的文件
+## 查找指定名称的文件
 
 - find . -name "*xxx*"
 
-# 杀死进程
+## 杀死进程
 
 kill
-
