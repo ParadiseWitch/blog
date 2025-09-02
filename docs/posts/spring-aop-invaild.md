@@ -55,7 +55,7 @@ public class UserTestAop {
 ```
 
 ## 补充
->
+
 > [!question]
 > 为什么必须要在bean中注入自己?> 只添加@Scope(proxyMode = ScopedProxyMode.TARGET_CLASS)不可以吗，调用自己方法的地方使用this，如下：
 >
