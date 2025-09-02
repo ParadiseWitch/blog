@@ -5,6 +5,7 @@ tags:
   - spring
   - java
   - spring-session-data-redis
+  - redis
 permalink: /article/99xp4tly/
 ---
 
