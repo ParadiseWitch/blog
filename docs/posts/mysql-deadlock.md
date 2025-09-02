@@ -1,6 +1,8 @@
 ---
 title: mysql死锁分析
 createTime: 2025/09/01 12:23:01
+tags:
+  - mysql
 permalink: /article/7v7kg82u/
 ---
 

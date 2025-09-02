@@ -1,6 +1,10 @@
 ---
 title: spring-session-data-redis 无法删除redis中session的key
 createTime: 2025/08/30 23:55:01
+tags:
+  - spring
+  - java
+  - spring-session-data-redis
 permalink: /article/99xp4tly/
 ---
 
